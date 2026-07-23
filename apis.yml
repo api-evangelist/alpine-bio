@@ -1,7 +1,28 @@
 aid: alpine-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alpine-bio.png
 name: Alpine Bio
-description: Alpine Bio is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Alpine Bio is a molecular-farming biotechnology company (formerly Nobell
+  Foods and Alpine Roads), founded in 2016 and based in South San Francisco, California.
+  It produces next-generation protein ingredients and bioactives from plants using
+  advanced purification and molecular farming, having expressed more than 15 complex
+  proteins including the world's first plant-derived casein, fractionated soy protein
+  isolates, and activated iron-loaded lactoferrin. The company sells high-purity,
+  clean-label ingredients to food and beverage formulators for applications such as
+  protein shakes, bars, coffee creamers, iron supplements, yogurt, and clear protein
+  sodas, and markets animal-free dairy products under the Nobell Foods brand. It is
+  a portfolio company of a16z surfaced in the API Evangelist network; Alpine Bio
+  publishes no public developer API, SDK, or developer portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/alpine-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +35,40 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biotechnology
+- Molecular Farming
+- Food Ingredients
+- Protein
+- Sustainability
+- Alternative Dairy
+- Bioactives
 apis: []
+common:
+- type: Website
+  url: https://www.alpbio.com/
+  name: Alpine Bio Website
+- type: About
+  url: https://www.alpbio.com/about
+  name: About Alpine Bio
+- type: Blog
+  url: https://www.alpbio.com/intel
+  name: Alpine Bio Intel (News & Insights)
+- type: PrivacyPolicy
+  url: https://www.alpbio.com/privacy
+  name: Privacy Policy
+- type: Contact
+  url: https://www.alpbio.com/contact
+  name: Contact Alpine Bio
+- type: LinkedIn
+  url: https://www.linkedin.com/company/alpinebio
+  name: Alpine Bio on LinkedIn
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
